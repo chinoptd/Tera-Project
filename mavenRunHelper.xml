@@ -32,10 +32,13 @@
               <option name="commandLine" value="site" />
             </Goal>
             <Goal>
+              <option name="commandLine" value="clean install liferay:deploy" />
+            </Goal>
+            <Goal>
               <option name="commandLine" value="clean install" />
             </Goal>
             <Goal>
-              <option name="commandLine" value="package liferay:deploy -U" />
+              <option name="commandLine" value="-T 1C clean install" />
             </Goal>
           </list>
         </option>
