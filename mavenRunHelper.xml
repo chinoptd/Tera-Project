@@ -40,6 +40,12 @@
             <Goal>
               <option name="commandLine" value="-T 1C clean install" />
             </Goal>
+            <Goal>
+              <option name="commandLine" value="-T 1C clean install -DskipTests" />
+            </Goal>
+            <Goal>
+              <option name="commandLine" value="liferay:deploy" />
+            </Goal>
           </list>
         </option>
       </Goals>
