@@ -1,0 +1,14 @@
+<application>
+  <component name="SonarLintGlobalSettings">
+    <option name="sonarQubeServers">
+      <list>
+        <SonarQubeServer>
+          <option name="hostUrl" value="http://zei33sc0:9098/sonar" />
+          <option name="name" value="http://zei33sc0:9098/sonar" />
+          <option name="login" value="sonar" />
+          <password>dfe7dfc7dfcedfdadf87df99df99df98df9f</password>
+        </SonarQubeServer>
+      </list>
+    </option>
+  </component>
+</application>
